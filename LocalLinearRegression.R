@@ -60,4 +60,4 @@ lines(Xp, yhat1, col=2, lwd=2)
 # bw = 0.5
 lines(Xp, yhat2, col=3, lwd=2)
 lines(Xp, yhat3, col=4, lwd=2)
-legend("topright",c("K=5","K=20"),lwd=2,col=2:3,inset=0.05)
+legend("topright",c("bw-2","bw=0.5","loess"),lwd=2,col=2:4,inset=0.05)
